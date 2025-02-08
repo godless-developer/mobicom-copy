@@ -8,8 +8,8 @@ export const Special = () => {
           Онцгой саналууд
         </p>
         <div className="flex justify-center items-center gap-8">
-          <div className="p-3 flex gap-4 rounded-2xl bg-black opacity-35">
-            <button className="focus:bg-[#3e5063] active:bg-[#3e5063] rounded-lg px-4 py-1">
+          <div className="p-3 flex gap-4 rounded-2xl bg-black opacity-35 text-white">
+            <button className="focus:bg-[#3e5063] focus:text-white rounded-lg px-4 py-1">
               Бүгд
             </button>
             <button className="focus:bg-[#3e5063] rounded-lg px-4 py-1">

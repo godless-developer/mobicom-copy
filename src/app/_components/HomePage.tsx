@@ -5,7 +5,7 @@ import { Special } from "./Special";
 
 export const HomePage = () => {
   return (
-    <div className=" rounded-lg w-[100%] h-full p-2 flex flex-col gap-6 bg-background">
+    <div className=" rounded-lg  h-full p-2 flex flex-col gap-6 bg-background ">
       <Header />
       <EasyGrid />
       <Special />

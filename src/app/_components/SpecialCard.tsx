@@ -7,7 +7,7 @@ export default function SpecialCard({ imgUrl, background, paragraph }) {
       <div className="w-11 h-11 absolute top-6 right-6 bg-gray-600 rounded-full flex justify-center items-center">
         <img src={imgUrl} alt="" />
       </div>
-      <p className="absolute bottom-7 text-[20px]">{paragraph}</p>
+      <p className="absolute bottom-7 text-[20px] text-white">{paragraph}</p>
       <div className="w-[85%] absolute bottom-4 h-[1.5px] bg-gray-700"></div>
     </div>
   );
