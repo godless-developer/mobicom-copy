@@ -1,6 +1,6 @@
 export const Header = () => {
   return (
-    <div className="w-full bg-[#3e5063] h-[70px] rounded-xl p-3 flex justify-between">
+    <div className="w-[100vw] bg-[#3e5063] h-[70px] rounded-xl p-3 flex justify-between fixed z-50">
       <div className="flex gap-12 items-center justify-center">
         <img
           src="https://www.mobicom.mn/_next/image?url=https%3A%2F%2Fosa.mobicom.mn%2Fcontent%2Fmcommerce%2Fuploads%2Fmobicom-logo-hq.png&w=256&q=75"

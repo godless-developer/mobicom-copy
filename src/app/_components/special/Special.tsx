@@ -1,4 +1,4 @@
-import SpecialCard from "./SpecialCard";
+import { SpecialCard } from "./SpecialCard";
 
 export const Special = () => {
   return (
@@ -47,8 +47,8 @@ export const Special = () => {
           </button>
         </div>
       </div>
-      <div className="absolute overflow-x-auto scroll-smooth scrollbar-hide top-[300px] w-full h-[530px] flex justify-start items-center z-50  left-10 ">
-        <div className="flex gap-10 ml-20 ">
+      <div className="absolute overflow-x-auto scroll-smooth scrollbar-hide top-[300px] w-full h-[530px] flex justify-start items-center z-20  left-10 ">
+        <div className="flex gap-8 ml-20 ">
           <SpecialCard
             background="https://osa.mobicom.mn/content/mcommerce/uploads/Mobicom_news_1_300x_7b4f719907.webp"
             paragraph="Samsung Galaxy S25 , S25+ , S25 Ultra гар утаснуудын урьдчилсан захайлга

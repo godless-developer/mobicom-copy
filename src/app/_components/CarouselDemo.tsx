@@ -9,11 +9,11 @@ import {
 
 export function CarouselDemo() {
   return (
-    <Carousel className=" z-50 w-[1400px] h-[700px]">
+    <Carousel className=" z-20 w-[1400px] h-[700px]">
       <CarouselContent>
-        <CarouselItem className="p-3">
+        <CarouselItem className="p-3 ">
           <div className="px-4 py-3 gap-4 flex h-[700px] ">
-            <div className="w-[50%] h-[100%] bg-[#50575e] rounded-xl border-[2px] border-[#646970] hover:border-[#a7aaad] flex flex-col p-5">
+            <div className="w-[50%] h-[100%] bg-[#50575e] rounded-xl border-[2px] border-[#646970] hover:border-amber-700 flex flex-col p-5">
               <img
                 src="https://www.mobicom.mn/_next/image?url=https%3A%2F%2Fosa.mobicom.mn%2Fcontent%2Fmcommerce%2Fuploads%2FHUAWEI_Pura_70_Pro_Black_Rear_expand_3a83fc8cb7.webp&w=2048&q=75"
                 alt=""
@@ -41,7 +41,7 @@ export function CarouselDemo() {
             </div>
             <div className="w-[50%] flex flex-col gap-4 h-[100%]">
               <div className="flex w-[100%] gap-4 h-[100%]">
-                <div className="bg-[#50575e] w-[50%] h-full rounded-xl border-[2px] border-[#646970] hover:border-[#a7aaad] p-2">
+                <div className="bg-[#50575e] w-[50%] h-full rounded-xl border-[2px] border-[#646970] hover:border-amber-700 p-2">
                   <img
                     src="https://www.mobicom.mn/_next/image?url=https%3A%2F%2Fosa.mobicom.mn%2Fcontent%2Fmcommerce%2Fuploads%2FHUAWEI_Pura_70_Pink_Rear_expand_Without_U_e07b3d828c.webp&w=640&q=75"
                     alt=""
@@ -67,7 +67,7 @@ export function CarouselDemo() {
                     </svg>
                   </div>
                 </div>
-                <div className="bg-[#50575e] p-2 w-[50%] h-[100%] rounded-xl border-[2px] border-[#646970] hover:border-[#a7aaad]">
+                <div className="bg-[#50575e] p-2 w-[50%] h-[100%] rounded-xl border-[2px] border-[#646970] hover:border-amber-700">
                   <img
                     src="https://www.mobicom.mn/_next/image?url=https%3A%2F%2Fosa.mobicom.mn%2Fcontent%2Fmcommerce%2Fuploads%2Fredmagic_8s_pro_3_a443836e76.webp&w=640&q=75"
                     alt=""
@@ -95,7 +95,7 @@ export function CarouselDemo() {
                 </div>
               </div>
               <div className="flex w-[100%] gap-4 h-[100%]">
-                <div className="bg-[#50575e] p-2 w-[50%] h-[100%] rounded-xl border-[2px] border-[#646970] hover:border-[#a7aaad]">
+                <div className="bg-[#50575e] p-2 w-[50%] h-[100%] rounded-xl border-[2px] border-[#646970] hover:border-amber-700">
                   <img
                     src="https://www.mobicom.mn/_next/image?url=https%3A%2F%2Fosa.mobicom.mn%2Fcontent%2Fmcommerce%2Fuploads%2F011_galaxy_s24_onyxblack_front2_8ee17f8957.webp&w=640&q=75"
                     alt=""
@@ -121,7 +121,7 @@ export function CarouselDemo() {
                     </svg>
                   </div>
                 </div>
-                <div className="bg-[#50575e] p-2 w-[50%] h-[100%] rounded-xl border-[2px] border-[#646970] hover:border-[#a7aaad]">
+                <div className="bg-[#50575e] p-2 w-[50%] h-[100%] rounded-xl border-[2px] border-[#646970] hover:border-amber-700">
                   <img
                     src="https://www.mobicom.mn/_next/image?url=https%3A%2F%2Fosa.mobicom.mn%2Fcontent%2Fmcommerce%2Fuploads%2FZTE_A73_1_566aabf3b7.webp&w=640&q=75"
                     alt=""
@@ -153,7 +153,7 @@ export function CarouselDemo() {
         </CarouselItem>
         <CarouselItem className="p-3">
           <div className="px-4 py-3 gap-4 flex h-[700px] ">
-            <div className="w-[50%] h-[100%] p-4 bg-[#50575e] rounded-xl border-[2px] border-[#646970] hover:border-[#a7aaad]">
+            <div className="w-[50%] h-[100%] p-4 bg-[#50575e] rounded-xl border-[2px] border-[#646970] hover:border-amber-700">
               <img
                 src="https://www.mobicom.mn/_next/image?url=https%3A%2F%2Fosa.mobicom.mn%2Fcontent%2Fmcommerce%2Fuploads%2FMU_7_T2_GEO_US_ezgif_com_webp_to_png_converter_removebg_preview_4e2b3dfed3.png&w=2048&q=75"
                 alt=""
@@ -179,7 +179,7 @@ export function CarouselDemo() {
                 </svg>
               </div>
             </div>
-            <div className="bg-[#50575e] p-2 w-[25%] h-[50%] rounded-xl border-[2px] border-[#646970] hover:border-[#a7aaad]">
+            <div className="bg-[#50575e] p-2 w-[25%] h-[50%] rounded-xl border-[2px] border-[#646970] hover:border-amber-700">
               <img
                 src="https://www.mobicom.mn/_next/image?url=https%3A%2F%2Fosa.mobicom.mn%2Fcontent%2Fmcommerce%2Fuploads%2FAirpods_Pro_gen_2_1_356dd594eb.webp&w=640&q=75"
                 alt=""
